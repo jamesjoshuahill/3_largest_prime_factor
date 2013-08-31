@@ -1,9 +1,9 @@
 require 'Prime'
 
 class LargestPrimeFactor
-  def prime?(n)
-    Prime.instance.prime?(n)
-  end
+  # def prime?(n)
+  #   Prime.instance.prime?(n)
+  # end
 
   def prime_factor(prime, n)
     power = 0
@@ -39,4 +39,4 @@ end
 
 #simple execution test
 puts LargestPrimeFactor.new.largest_prime_factor(13195)
-puts LargestPrimeFactor.new.largest_prime_factor(600851475143)
+# puts LargestPrimeFactor.new.largest_prime_factor(600851475143)
