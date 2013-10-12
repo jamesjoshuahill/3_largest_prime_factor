@@ -1,9 +1,6 @@
 require 'Prime'
 
 class LargestPrimeFactor
-  # def prime?(n)
-  #   Prime.instance.prime?(n)
-  # end
 
   def prime_factor(prime, n)
     power = 0

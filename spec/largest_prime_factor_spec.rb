@@ -1,18 +1,9 @@
 require 'largest_prime_factor'
 
 describe LargestPrimeFactor do
+
   let(:lpf) { LargestPrimeFactor.new }
   subject { lpf }
-
-  # it 'should know if a number is prime' do
-  #   expect(subject.prime?(3)).to be_true
-  #   expect(subject.prime?(79)).to be_true
-  # end
-
-  # it 'should know if a number is NOT prime' do
-  #   expect(subject.prime?(6)).to be_false
-  #   expect(subject.prime?(57)).to be_false
-  # end
 
   it 'should know the multiplicity of a prime factor of a given number' do
     expect(subject.prime_factor(3, 9)).to eq 2
